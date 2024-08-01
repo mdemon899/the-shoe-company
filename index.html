@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shoe Company</title>
+    <link rel="stylesheet" href="/output.css">
+    <link rel="stylesheet" href="navbar.css">
+    <script src="/script.js" defer></script>
+</head>
+
+<body class="bg-black">
+    <header id="header" class="fixed flex items-center justify-between w-full text-white section-container">
+        <div class="logo">
+            <img class="w-24" src="/Images/logo.png" alt="logo">
+            <p class="-mt-6 text-sm">The Shoe Company</p>
+        </div>
+        <nav class="">
+            <ul class="flex space-x-10 font-bold lg:text-2xl">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#howitworks">How It Works?</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+                <button id="closeBtn">
+                    <svg width="35" height="25" viewBox="0 0 27 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.2338 4.20044L23.0625 8.50002L16.2338 12.7996M3.9375 8.50002H22.8712" stroke="white"
+                            stroke-width="1.60714" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </ul>
+        </nav>
+        <button id="hamburgerBtn" class="block text-3xl text-white md:hidden">☰</button>
+    </header>
+    <section id="hero"
+        class=" pt-36  section-container bg-[url('./images/hero-background.png')] bg-no-repeat bg-cover md:bg-contain md:bg-right ">
+        <div class="flex flex-col justify-between max-w-6xl mx-auto md:items-center md:flex-row">
+            <div>
+                <h2 class="font-bold leading-[64px] md:leading-[92px] text-white text-6xl md:text-7xl">THE <br> SHOE
+                    <br> COMPANY</h2>
+            </div>
+            <div>
+                <img class="w-full max-w-lg" src="/Images/hero-shoe-image.png" alt="shoe">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

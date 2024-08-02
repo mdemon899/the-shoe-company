@@ -9,3 +9,11 @@ hamburgerBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   header.classList.remove("open-menu");
 });
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 30) {
+    header.classList.add("bg-black/50", "backdrop-blur-sm");
+  } else {
+    header.classList.remove("bg-black/50", "backdrop-blur-sm");
+  }
+});
